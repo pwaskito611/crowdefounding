@@ -1,0 +1,7 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/web3.min.js": "/js/web3.min.js",
+    "/contracts/Accessible.js": "/contracts/Accessible.js",
+    "/contracts/Crowdfounding.js": "/contracts/Crowdfounding.js",
+    "/css/app.css": "/css/app.css"
+}
