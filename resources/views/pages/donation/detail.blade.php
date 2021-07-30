@@ -7,10 +7,12 @@
           {{$item->title}}
         </h2>
         <center>
+            @if ($item->photo_path !== null)
             <div class="black-background">
                 <img src="{{url($item->photo_path)}}" 
                 style="max-height: 100%; max-width: 100%;" class="text-center">
             </div>
+            @endif
         </center>
         <div class="detail-description">
             <p style="white-space: pre-line;">

@@ -21,7 +21,7 @@ class StoreController extends Controller
         $donation->description = $request->description;
         $donation->target = $request->target;
         $donation->photo_path = $photo_path;
-        $donation->status = "pending";
+        $donation->status = "OPEN"; 
         $donation->save();
 
         return \Redirect('/donation/detail/' . $donation->id);

@@ -10,7 +10,7 @@ use App\Models\Donation;
 class ShowController extends Controller
 {
     public function index() {
-        $items = Donation::where('status', 'open')
+        $items = Donation::where('status', 'OPEN')
         ->paginate(9);
 
         return view("pages.donation.show", [

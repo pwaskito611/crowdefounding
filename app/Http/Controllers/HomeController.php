@@ -9,7 +9,9 @@ use App\Models\Donation;
 class HomeController extends Controller
 {
     public function index() {
-        $items = Donation::limit(3)->get();
+        $items = Donation::where('status', 'OPEN')
+        ->limit(3)
+        ->get();
 
         return view("pages.home", [
             'items' => $items

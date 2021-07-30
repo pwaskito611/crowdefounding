@@ -14,7 +14,7 @@
         <input type="text" class="form-control" name="title" id="title" required>
     </div>
      <div class="form-group">
-        <label for="exampleFormControlInput1">Target (in ether)</label>
+        <label for="exampleFormControlInput1">Target</label>
         <input type="number" class="form-control" name="target" id="target" required> 
      </div>
      <div class="form-group">
